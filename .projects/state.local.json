@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "project": {
+    "initializedAt": "2026-05-25T17:45:22.690Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1Tb2W35VG1rPQsHH",
+    "projectId": "project_61UkQWQ2nU41rQLjK16UkQTP8DA8Q2vPq8NeboEfw8Dg",
+    "projectName": "groceries-mart"
+  },
+  "providers": {
+    "clerk": {
+      "accountRequestId": "facctrq_61UkQas3MFG1Hd8xi16UkQTP8DA8Q2vPq8NeboEfwGXQ",
+      "configuration": {},
+      "linkedAt": "2026-05-25T17:50:00.505Z",
+      "providerId": "prvdr_61UGOeSW4e0T9Etwn537w",
+      "providerName": "Clerk",
+      "redirectUrl": null,
+      "requestedAt": "2026-05-25T17:50:00.505Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "clerk-auth": {
+      "configuration": {
+        "app_name": "groceries-mart"
+      },
+      "createdAt": "2026-05-25T17:50:10.313Z",
+      "lastRevealedAt": "2026-05-25T17:50:10.545Z",
+      "lastStatus": "complete",
+      "name": "clerk-auth",
+      "providerId": "prvdr_61UGOeSW4e0T9Etwn537w",
+      "providerName": "Clerk",
+      "resourceId": "fres_61UkQazLrIFPv4z3p16UkQTP8DA8Q2vPq8NeboEfwY5Y",
+      "serviceId": "auth"
+    },
+    "clerk-plan": {
+      "configuration": {},
+      "createdAt": "2026-05-25T17:50:04.253Z",
+      "lastRevealedAt": "2026-05-25T17:50:04.534Z",
+      "lastStatus": "complete",
+      "name": "clerk-plan",
+      "providerId": "prvdr_61UGOeSW4e0T9Etwn537w",
+      "providerName": "Clerk",
+      "resourceId": "fres_61UkQavZtEFjEp1G016UkQTP8DA8Q2vPq8NeboEfwA9w",
+      "serviceId": "hobby"
+    }
+  }
+}
